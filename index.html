@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CV en ligne - [Votre Nom] - [Votre Titre Professionnel]">
+    <meta name="keywords" content="CV, portfolio, développeur, [vos compétences]">
+    <meta name="author" content="[Votre Nom]">
+
+    <title>[Votre Nom] - CV en ligne</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="#home">[Vos Initiales]</a>
+            </div>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#experience">Expérience</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#education">Formation</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-image">
+                    <img src="assets/images/profile.jpg" alt="[Votre Nom]">
+                </div>
+                <h1 class="hero-title">Bonjour, je suis <span class="highlight">[Votre Nom]</span></h1>
+                <p class="hero-subtitle">[Votre Titre Professionnel]</p>
+                <p class="hero-description">[Une phrase accrocheuse décrivant votre expertise]</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Me contacter</a>
+                    <a href="assets/pdf/cv.pdf" download class="btn btn-secondary">
+                        <i class="fas fa-download"></i> Télécharger CV
+                    </a>
+                </div>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/[votre-profil]" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/[votre-username]" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:[votre-email]" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://twitter.com/[votre-username]" target="_blank" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <h2 class="section-title">À propos de moi</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        [Paragraphe 1 : Présentez-vous brièvement - qui vous êtes, votre parcours, votre passion pour votre domaine]
+                    </p>
+                    <p>
+                        [Paragraphe 2 : Décrivez vos compétences principales et ce qui vous rend unique dans votre domaine]
+                    </p>
+                    <p>
+                        [Paragraphe 3 : Mentionnez vos objectifs professionnels et ce que vous recherchez]
+                    </p>
+                </div>
+                <div class="about-info">
+                    <div class="info-item">
+                        <i class="fas fa-user"></i>
+                        <div>
+                            <h4>Nom</h4>
+                            <p>[Votre Nom Complet]</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Localisation</h4>
+                            <p>[Votre Ville, Pays]</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>[votre.email@example.com]</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Téléphone</h4>
+                            <p>[+33 X XX XX XX XX]</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience section">
+        <div class="container">
+            <h2 class="section-title">Expérience Professionnelle</h2>
+            <div class="timeline">
+
+                <!-- Experience Item 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">[Date début - Date fin]</div>
+                    <div class="timeline-content">
+                        <h3>[Titre du Poste]</h3>
+                        <h4>[Nom de l'Entreprise] - [Ville]</h4>
+                        <p>[Description de vos responsabilités et réalisations]</p>
+                        <ul>
+                            <li>[Réalisation ou responsabilité clé 1]</li>
+                            <li>[Réalisation ou responsabilité clé 2]</li>
+                            <li>[Réalisation ou responsabilité clé 3]</li>
+                        </ul>
+                        <div class="tags">
+                            <span class="tag">[Technologie 1]</span>
+                            <span class="tag">[Technologie 2]</span>
+                            <span class="tag">[Technologie 3]</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience Item 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">[Date début - Date fin]</div>
+                    <div class="timeline-content">
+                        <h3>[Titre du Poste]</h3>
+                        <h4>[Nom de l'Entreprise] - [Ville]</h4>
+                        <p>[Description de vos responsabilités et réalisations]</p>
+                        <ul>
+                            <li>[Réalisation ou responsabilité clé 1]</li>
+                            <li>[Réalisation ou responsabilité clé 2]</li>
+                            <li>[Réalisation ou responsabilité clé 3]</li>
+                        </ul>
+                        <div class="tags">
+                            <span class="tag">[Technologie 1]</span>
+                            <span class="tag">[Technologie 2]</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience Item 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">[Date début - Date fin]</div>
+                    <div class="timeline-content">
+                        <h3>[Titre du Poste]</h3>
+                        <h4>[Nom de l'Entreprise] - [Ville]</h4>
+                        <p>[Description de vos responsabilités et réalisations]</p>
+                        <ul>
+                            <li>[Réalisation ou responsabilité clé 1]</li>
+                            <li>[Réalisation ou responsabilité clé 2]</li>
+                        </ul>
+                        <div class="tags">
+                            <span class="tag">[Technologie 1]</span>
+                            <span class="tag">[Technologie 2]</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <h2 class="section-title">Compétences Techniques</h2>
+            <div class="skills-content">
+
+                <!-- Skill Category 1 -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Langages de Programmation</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>[Langage 1]</span>
+                                <span class="skill-level">[Niveau]%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: [Niveau]%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>[Langage 2]</span>
+                                <span class="skill-level">[Niveau]%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: [Niveau]%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>[Langage 3]</span>
+                                <span class="skill-level">[Niveau]%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: [Niveau]%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill Category 2 -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Frameworks & Outils</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>[Framework 1]</span>
+                                <span class="skill-level">[Niveau]%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: [Niveau]%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>[Framework 2]</span>
+                                <span class="skill-level">[Niveau]%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: [Niveau]%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>[Outil 1]</span>
+                                <span class="skill-level">[Niveau]%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: [Niveau]%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill Category 3 -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Bases de Données</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>[BDD 1]</span>
+                                <span class="skill-level">[Niveau]%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: [Niveau]%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>[BDD 2]</span>
+                                <span class="skill-level">[Niveau]%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: [Niveau]%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Soft Skills -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-lightbulb"></i> Compétences Transversales</h3>
+                    <div class="soft-skills">
+                        <span class="soft-skill-tag">[Soft Skill 1]</span>
+                        <span class="soft-skill-tag">[Soft Skill 2]</span>
+                        <span class="soft-skill-tag">[Soft Skill 3]</span>
+                        <span class="soft-skill-tag">[Soft Skill 4]</span>
+                        <span class="soft-skill-tag">[Soft Skill 5]</span>
+                        <span class="soft-skill-tag">[Soft Skill 6]</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education section">
+        <div class="container">
+            <h2 class="section-title">Formation</h2>
+            <div class="education-grid">
+
+                <!-- Education Item 1 -->
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-content">
+                        <span class="education-date">[Année début - Année fin]</span>
+                        <h3>[Diplôme Obtenu]</h3>
+                        <h4>[Nom de l'Institution]</h4>
+                        <p>[Ville, Pays]</p>
+                        <p class="education-description">[Description ou spécialisation]</p>
+                    </div>
+                </div>
+
+                <!-- Education Item 2 -->
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-content">
+                        <span class="education-date">[Année début - Année fin]</span>
+                        <h3>[Diplôme Obtenu]</h3>
+                        <h4>[Nom de l'Institution]</h4>
+                        <p>[Ville, Pays]</p>
+                        <p class="education-description">[Description ou spécialisation]</p>
+                    </div>
+                </div>
+
+                <!-- Education Item 3 -->
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="education-content">
+                        <span class="education-date">[Année]</span>
+                        <h3>[Certification]</h3>
+                        <h4>[Organisme]</h4>
+                        <p class="education-description">[Description de la certification]</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <h2 class="section-title">Projets</h2>
+            <div class="projects-grid">
+
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/project1.jpg" alt="[Nom du Projet 1]">
+                        <div class="project-overlay">
+                            <a href="[URL du projet]" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="[URL GitHub]" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>[Nom du Projet 1]</h3>
+                        <p>[Description courte du projet et de vos contributions]</p>
+                        <div class="project-tags">
+                            <span class="tag">[Tech 1]</span>
+                            <span class="tag">[Tech 2]</span>
+                            <span class="tag">[Tech 3]</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/project2.jpg" alt="[Nom du Projet 2]">
+                        <div class="project-overlay">
+                            <a href="[URL du projet]" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="[URL GitHub]" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>[Nom du Projet 2]</h3>
+                        <p>[Description courte du projet et de vos contributions]</p>
+                        <div class="project-tags">
+                            <span class="tag">[Tech 1]</span>
+                            <span class="tag">[Tech 2]</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/project3.jpg" alt="[Nom du Projet 3]">
+                        <div class="project-overlay">
+                            <a href="[URL du projet]" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="[URL GitHub]" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>[Nom du Projet 3]</h3>
+                        <p>[Description courte du projet et de vos contributions]</p>
+                        <div class="project-tags">
+                            <span class="tag">[Tech 1]</span>
+                            <span class="tag">[Tech 2]</span>
+                            <span class="tag">[Tech 3]</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/project4.jpg" alt="[Nom du Projet 4]">
+                        <div class="project-overlay">
+                            <a href="[URL du projet]" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="[URL GitHub]" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>[Nom du Projet 4]</h3>
+                        <p>[Description courte du projet et de vos contributions]</p>
+                        <div class="project-tags">
+                            <span class="tag">[Tech 1]</span>
+                            <span class="tag">[Tech 2]</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <h2 class="section-title">Me Contacter</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>[votre.email@example.com]</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4>Téléphone</h4>
+                            <p>[+33 X XX XX XX XX]</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Localisation</h4>
+                            <p>[Ville, Pays]</p>
+                        </div>
+                    </div>
+                    <div class="contact-social">
+                        <h4>Réseaux sociaux</h4>
+                        <div class="social-links">
+                            <a href="https://linkedin.com/in/[votre-profil]" target="_blank" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://github.com/[votre-username]" target="_blank" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://twitter.com/[votre-username]" target="_blank" aria-label="Twitter">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <p class="contact-note">
+                        <i class="fas fa-info-circle"></i>
+                        N'hésitez pas à me contacter directement par email ou via mes réseaux sociaux !
+                    </p>
+                    <p class="contact-note">
+                        Pour ajouter un formulaire de contact fonctionnel, vous pouvez utiliser des services comme
+                        <a href="https://formspree.io/" target="_blank">Formspree</a>,
+                        <a href="https://www.netlify.com/products/forms/" target="_blank">Netlify Forms</a>, ou
+                        <a href="https://getform.io/" target="_blank">GetForm</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 [Votre Nom]. Tous droits réservés.</p>
+                <p>Fait avec <i class="fas fa-heart"></i> et hébergé sur <a href="https://pages.github.com/" target="_blank">GitHub Pages</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTopBtn" class="scroll-top" aria-label="Retour en haut">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Custom JavaScript -->
+    <script src="js/main.js"></script>
+
+</body>
+</html>
