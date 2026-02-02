@@ -41,20 +41,22 @@ document.addEventListener('DOMContentLoaded', function() {
 // ========================================
 // Smooth Scrolling for Navigation Links
 // ========================================
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
-        e.preventDefault();
-        const target = document.querySelector(this.getAttribute('href'));
+document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
 
-        if (target) {
-            const offset = 80; // Hauteur de la navbar
-            const targetPosition = target.offsetTop - offset;
+            if (target) {
+                const offset = 80; // Hauteur de la navbar
+                const targetPosition = target.offsetTop - offset;
 
-            window.scrollTo({
-                top: targetPosition,
-                behavior: 'smooth'
-            });
-        }
+                window.scrollTo({
+                    top: targetPosition,
+                    behavior: 'smooth'
+                });
+            }
+        });
     });
 });
 
